@@ -3,7 +3,7 @@ Designing a 15 bit carry lookahead adder using 3-bit carry lookahead adder as a 
 
 # Table of Contents:
 
-- **15bit_CLA.pdf:** The explancatory document of the project.
+- **15bit_CLA.pdf:** Explanatory document of the project.
 - **CLA_3bit.v:** This Verilog file defines a 3-bit Carry Lookahead Adder module, which computes fast binary addition by generating carry bits in parallel for small-bit inputs.
 - **CLA_15bit_top.v:** This file defines the top-level 15-bit Carry Lookahead Adder module by hierarchically instantiating smaller CLA units and connecting them to perform full 15-bit binary addition.
 - **CLA_15bit_tb.v:** This Verilog file is the testbench for the 15-bit CLA, providing input stimuli and verifying the correctness of the top-level adder module under different test conditions.
